@@ -12,7 +12,7 @@ Concluida la creación de las entidades se continuo con la creacion de los crud 
 
 Para la parte del front se uso twig, solo la parte funcional, no se incursiono en la parte estetica.
 
-Se continuo con la creacion de cun contralador para la parte de la asignacion de los viajes (trips) se pretendia agregar validaciones de campos y tipo de datos pero se dejo para el final.
+Se continuo con la creacion de un contralador para la parte de la asignacion de los viajes (trips) se pretendia agregar validaciones de campos y tipo de datos pero se dejo para el final.
 
 El ultimo paso realizado fue la selección de la fecha para asignar conductor y vehiculo, sin embargo no se logro concluir con el desarrollo por falta de tiempo.
 
