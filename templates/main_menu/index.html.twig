@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Main Menu{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1>Main Menu</h1>
+    <ul>
+        <li><a href="{{ path('app_trip_schedule') }}">Trip Schedule</li>
+        <li><a href="{{ path('app_vehicles_crud_index') }}">Vehicles</li>
+        <li><a href="{{ path('app_drivers_crud_index') }}">Drivers</li>
+        <li><a href="{{ path('app_trip') }}">Trips</li>
+        
+    </ul>
+</div>
+{% endblock %}

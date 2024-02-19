@@ -1,0 +1,31 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+kernel:
+    resource: ../src/Kernel.php
+    type: attribute
+
+create_vehicle:
+    path: /create_vehicle
+    controller: 'App\Controller\VehiclesController::createVehicle'
+    
+app_vehicles_crud_index:
+    path: /vehicles
+    controller: 'App\Controller\VehiclesCrudController::index'
+
+app_drivers_crud_index:
+    path: /drivers
+    controller: 'App\Controller\DriversCrudController::index'
+
+app_trip:
+    path: /trips
+    controller: 'App\Controller\TripController::index'
+    
+app_main_menu:
+    path: /
+    controller: 'App\Controller\MainMenuController::index'
+    
+app_trip_schedule:
+    path: /trip_schedule
+    controller: 'App\Controller\TripController::tripSchedule'

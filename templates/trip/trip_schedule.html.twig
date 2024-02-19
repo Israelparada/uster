@@ -1,0 +1,17 @@
+{{ form_start (form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
+
+<select class="form-control select" id="vehicles_id" name="vehicles" required="true" ;">
+                    <option disabled="true" value selected>Choice a vehicle</option>
+                    {% for vehicle in vehicles  %}
+                        <option value="{{vehicle.id}}">{{vehicle.brand}}</option>          
+                    {% endfor %}
+</select>
+
+<select class="form-control select" id="drivers_id" name="drivers" required="true" ;">
+                    <option disabled="true" value selected>Choice a driver</option>
+                    {% for driver in drivers  %}
+                        <option value="{{driver.id}}">{{driver.name}}</option>          
+                    {% endfor %}
+</select>
