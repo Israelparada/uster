@@ -17,4 +17,6 @@ Se continuo con la creacion de un contralador para la parte de la asignacion de 
 El ultimo paso realizado fue la selección de la fecha para asignar conductor y vehiculo, sin embargo no se logro concluir con el desarrollo por falta de tiempo.
 
 De antemano gracias por su tiempo.
+
+La url: http://localhost/uster/public/index.php/
   
